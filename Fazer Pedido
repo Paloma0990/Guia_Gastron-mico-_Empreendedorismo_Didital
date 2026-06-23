@@ -1,0 +1,34 @@
+<section id="fazer-pedido">
+  <h2>Fazer Pedido</h2>
+
+  <label for="nome-cliente">Nome do Cliente:</label>
+<input type="text" id="nome-cliente" required><br>
+
+  <label for="telefone-cliente">Telefone para Contato:</label>
+  <input type="tel" id="telefone-cliente" required><br>
+
+  <label for="endereco-cliente">Endereço de Entrega:</label>
+  <input type="text" id="endereco-cliente" required><br>
+
+  <label for="pedido">Seu Pedido:</label><br>
+    <textarea id="pedido" rows="4" placeholder="Ex: 1 Hambúrguer Gourmet, 1 Porção de Batata Frita" required></textarea><br>
+
+  <div class="forma-de-pagamento">
+    <label for="pagamento">Forma de Pagamento:</label>
+    <select id="pagamento" required>
+      <option value="">Selecione uma opção...</option>
+      <option value="pix">Pix</option>
+      <option value="dinheiro">Dinheiro</option>
+      <option value="pagar-na-entrega">Pagamento na Entrega</option>
+      <option value="cartao-credito">Cartão de Crédito</option>
+      <option value="cartao-debito">Cartão de Débito</option>
+    </select><br><br>
+  </div>
+
+  <div class="forma-de-pagamento">
+    <label for="observacoes">Observações do Pedido:</label>
+    <textarea id="observacoes" rows="3" placeholder="Ex: Sem cebola, levar troco para..."></textarea><br>
+  </div>
+
+  <button>Finalizar Pedido</button>
+</section>
